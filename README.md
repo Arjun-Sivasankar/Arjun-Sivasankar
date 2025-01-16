@@ -25,22 +25,7 @@ Here are some ideas to get you started:
 </h1>
 -->
 
-<style>
-@keyframes typing {
-  from { width: 0; }
-  to { width: 100%; }
-}
-@keyframes blink {
-  50% { border-color: transparent; }
-}
-span[style*="animation"] {
-  font-family: 'Courier New', monospace;
-  font-size: 1.5em;
-  color: #2d8fff;
-  border-right: 2px solid #2d8fff;
-  box-sizing: border-box;
-}
-</style>
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hi+👋,+I'm+[Arjun+Sivasankar];Welcome+to+my+profile!)](https://git.io/typing-svg)
 
 
 ### 🎓 Computational Modeling and Simulation Student | Enthusiast in Data Science & AI
