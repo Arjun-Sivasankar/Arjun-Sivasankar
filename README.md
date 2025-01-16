@@ -55,8 +55,8 @@ Here are some ideas to get you started:
 ---
 
 ## 📈 GitHub Stats:
-![Your Name's GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&hide=prs&count_private=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical)
+![Arjun's GitHub Stats](https://github-readme-stats.vercel.app/api?username=arjun-sivasankar&show_icons=true&hide=prs&count_private=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=arjun-sivasankar&layout=compact&theme=radical)
 
 ---
 
