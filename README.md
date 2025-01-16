@@ -13,7 +13,35 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<!--
 # Hi there 👋, I'm Arjun Sivasankar. 
+
+<h1 align="center">
+  <span style="display: inline-block; overflow: hidden; white-space: nowrap;">
+    <span style="display: inline-block; animation: typing 4s steps(15, end), blink 0.5s step-end infinite;">
+      Hi 👋, I'm [Your Name]
+    </span>
+  </span>
+</h1>
+-->
+
+<style>
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+span[style*="animation"] {
+  font-family: 'Courier New', monospace;
+  font-size: 1.5em;
+  color: #2d8fff;
+  border-right: 2px solid #2d8fff;
+  box-sizing: border-box;
+}
+</style>
+
 
 ### 🎓 Computational Modeling and Simulation Student | Enthusiast in Data Science & AI
 
