@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 </h1>
 -->
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=50&duration=800&pause=1000&width=600&height=90&lines=Hi+👋;+I'm+Arjun+Sivasankar;Welcome+to+my+profile!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=50&duration=2000&pause=2000&width=600&height=90&lines=Hi+👋;+I'm+Arjun+Sivasankar;Welcome+to+my+profile!)](https://git.io/typing-svg)
 
 
 ### 🎓 Computational Modeling and Simulation Student | Enthusiast in Data Science & AI
