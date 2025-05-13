@@ -81,10 +81,9 @@ Here are some ideas to get you started:
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=arjun-sivasankar&layout=compact&theme=radical)
 -->
 ---
-Let's Connect!
-Feel free to check out my repositories, contribute to ongoing projects, or reach out for a chat about AI, agents or anything related to Data! :)
 
 ## 📬 Connect with Me:
+Let's Connect! Feel free to check out my repositories, contribute to ongoing projects, or reach out for a chat about AI, agents or anything related to Data! :)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/arjun-sivasankar-381380155/))
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=flat-square&logo=firefox&logoColor=white)](https://arjun-sivasankar.github.io/ArjunSivasankar.github.io/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:arjun.sivasankar@gmail.com)
