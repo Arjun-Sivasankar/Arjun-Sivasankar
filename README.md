@@ -75,13 +75,14 @@ Here are some ideas to get you started:
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
----
 <!--
 ## 📈 GitHub Stats:
 ![Arjun's GitHub Stats](https://github-readme-stats.vercel.app/api?username=arjun-sivasankar&show_icons=true&hide=prs&count_private=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=arjun-sivasankar&layout=compact&theme=radical)
 -->
 ---
+Let's Connect!
+Feel free to check out my repositories, contribute to ongoing projects, or reach out for a chat about AI, agents or anything related to Data! :)
 
 ## 📬 Connect with Me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/your-linkedin-profile](https://www.linkedin.com/in/arjun-sivasankar-381380155/))
