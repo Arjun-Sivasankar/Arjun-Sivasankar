@@ -12,17 +12,17 @@
 
 ### `$ whoami`
 
-I'm **Arjun Sivasankar** — a computational modeling researcher and AI builder interested in systems that combine **machine learning, scientific reasoning, simulation, agents, and structured knowledge**.
+I'm **Arjun Sivasankar** — a computational modeling researcher and AI builder working at the intersection of **machine intelligence, scientific computing, simulation, and knowledge-driven systems**.
 
-I like working where the problem is messy, the data is imperfect, and the solution needs more than just calling a model.
+I enjoy problems where the data is imperfect, the system is complex, and the solution needs more than simply calling a model.
 
-```text
-current_focus = [
-  "Generative AI & Agents",
-  "Knowledge-Augmented Systems",
-  "Scientific Machine Learning",
-  "Computational Modeling & Simulation"
-]
+```python
+arjun = {
+    "builds": ["AI systems", "agents", "scientific ML"],
+    "thinks_in": ["models", "graphs", "experiments", "systems"],
+    "currently_exploring": ["Generative AI", "RAG", "Knowledge Graphs"],
+    "status": "always experimenting"
+}
 ```
 
 ---
@@ -36,7 +36,7 @@ current_focus = [
 ### 🧠 Medical AI + Knowledge Graphs
 **[MasterThesis](https://github.com/Arjun-Sivasankar/MasterThesis)**
 
-Exploring knowledge-aware clinical generation with **MIMIC-IV, UMLS, RAG, FAISS, LLM fine-tuning, semantic mapping, and history-aware pipelines**.
+Knowledge-aware clinical generation using **MIMIC-IV, UMLS, RAG, FAISS, LLM fine-tuning, semantic mapping, and history-aware pipelines**.
 
 `LLMs` `RAG` `Knowledge Graphs` `Medical AI`
 
@@ -46,7 +46,7 @@ Exploring knowledge-aware clinical generation with **MIMIC-IV, UMLS, RAG, FAISS,
 ### 🔬 Scientific Machine Learning
 **[Conductivity Reconstruction](https://github.com/Arjun-Sivasankar/Conductivity-Reconstruction-using-Invertible-Neural-Networks-after-sensor-reduction)**
 
-Reconstructing conductivity fields using **invertible neural networks** under reduced sensor information.
+Reconstructing conductivity fields with **invertible neural networks** under reduced sensor information.
 
 `Scientific ML` `Inverse Problems` `Neural Networks`
 
@@ -58,7 +58,7 @@ Reconstructing conductivity fields using **invertible neural networks** under re
 ### 🤖 Agentic AI
 **[AI-Agent-JS](https://github.com/Arjun-Sivasankar/AI-Agent-JS)**
 
-Experiments around AI agents and autonomous workflows — exploring how models can move from answering questions to taking structured actions.
+Exploring AI agents and autonomous workflows — moving models from answering questions toward taking structured actions.
 
 `Agents` `JavaScript` `Generative AI`
 
@@ -78,30 +78,26 @@ Deep-learning experiments for traffic-sign recognition and visual classification
 
 ---
 
-## 🛰️ My technical orbit
+## 🧰 The toolbox
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,pytorch,tensorflow,sklearn,docker,git,linux,postgres,mongodb,sqlite,aws,azure,gcp&perline=9" alt="Arjun's technical stack" />
+</p>
 
 <table>
 <tr>
-<td><strong>AI / ML</strong></td>
-<td>PyTorch · TensorFlow · scikit-learn · LLMs · RAG · Knowledge Graphs</td>
-</tr>
-<tr>
-<td><strong>Engineering</strong></td>
-<td>Python · C++ · Java · TypeScript · Docker · Linux · Git</td>
-</tr>
-<tr>
-<td><strong>Data</strong></td>
-<td>PostgreSQL · SQLite · MongoDB · Pandas · NumPy</td>
-</tr>
-<tr>
-<td><strong>Scientific Computing</strong></td>
-<td>MATLAB · Simulink · COMSOL · Computational Modeling</td>
-</tr>
-<tr>
-<td><strong>Cloud</strong></td>
-<td>AWS · Azure · Google Cloud</td>
+<td width="25%" valign="top"><strong>🧠 AI / ML</strong><br><br>PyTorch<br>TensorFlow<br>scikit-learn<br>LLMs & Generative AI<br>RAG<br>Knowledge Graphs<br>Computer Vision</td>
+<td width="25%" valign="top"><strong>⚙️ Engineering</strong><br><br>Python<br>C++<br>Java<br>JavaScript / TypeScript<br>Docker<br>Linux<br>Git</td>
+<td width="25%" valign="top"><strong>📊 Data</strong><br><br>Pandas<br>NumPy<br>PostgreSQL<br>SQLite<br>MongoDB<br>Matplotlib<br>FAISS</td>
+<td width="25%" valign="top"><strong>🔬 Scientific</strong><br><br>MATLAB<br>Simulink<br>COMSOL<br>Computational Modeling<br>Simulation<br>Inverse Problems<br>Scientific ML</td>
 </tr>
 </table>
+
+<p align="center">
+  <code>Cloud: AWS • Azure • Google Cloud</code>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <code>Focus: AI systems that connect models + knowledge + tools</code>
+</p>
 
 ---
 
@@ -121,17 +117,26 @@ Deep-learning experiments for traffic-sign recognition and visual classification
 
 ## 📡 Currently exploring
 
-- 🧠 AI systems that reason over **structured and unstructured knowledge**
-- 🤖 **Agents** that can plan, use tools, and operate in real workflows
-- 🔬 Applying ML to **scientific and inverse problems**
-- 🕸️ Combining **knowledge graphs + retrieval + generative models**
-- ⚙️ Turning research prototypes into systems that are actually usable
+- 🧠 AI systems that reason over **structured + unstructured knowledge**
+- 🤖 **Agents** that plan, use tools, and operate inside real workflows
+- 🕸️ **Knowledge graphs + retrieval + generative models**
+- 🔬 Machine learning for **scientific and inverse problems**
+- ⚙️ Turning promising research prototypes into systems that are actually usable
 
 ---
 
-## 🤝 Let's connect
+## 📈 A little signal from the noise
 
-I'm always interested in conversations around **AI, agents, scientific ML, generative systems, simulation, and interesting problems that don't have obvious solutions yet**.
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Arjun-Sivasankar&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Arjun's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arjun-Sivasankar&layout=compact&hide_border=true&theme=transparent" alt="Arjun's top languages" />
+</p>
+
+---
+
+## 🤝 Let's build something interesting
+
+I’m always interested in conversations around **AI, agents, scientific ML, generative systems, simulation, and problems that don’t have obvious solutions yet**.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/arjun-sivasankar-381380155/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
