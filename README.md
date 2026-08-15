@@ -10,9 +10,7 @@
 
 ---
 
-<sub><code>$ whoami</code></sub>
-
-## Arjun Sivasankar
+## Hi! I'm Arjun Sivasankar
 
 **Computational Modeling Researcher · AI Engineer**
 
