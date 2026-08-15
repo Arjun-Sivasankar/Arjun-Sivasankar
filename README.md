@@ -10,12 +10,11 @@
 
 ---
 
-### `$ whoami`
+<sub><code>$ whoami</code></sub>
 
-```text
-Arjun Sivasankar
-Computational Modeling Researcher · AI Engineer
-```
+## Arjun Sivasankar
+
+**Computational Modeling Researcher · AI Engineer**
 
 I work at the intersection of **machine learning, scientific computing, simulation, and knowledge-driven systems**.
 
