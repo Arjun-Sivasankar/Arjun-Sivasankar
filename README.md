@@ -12,7 +12,12 @@
 
 ### `$ whoami`
 
-I'm **Arjun Sivasankar** — a computational modeling researcher and AI engineer working at the intersection of **machine learning, scientific computing, simulation, and knowledge-driven systems**.
+```text
+Arjun Sivasankar
+Computational Modeling Researcher · AI Engineer
+```
+
+I work at the intersection of **machine learning, scientific computing, simulation, and knowledge-driven systems**.
 
 I am particularly interested in problems where the data is imperfect, the system is complex, and useful solutions require more than a single model call.
 
@@ -124,9 +129,13 @@ Deep-learning experiments for traffic-sign recognition and visual classification
 
 ## GitHub Activity
 
+<a href="https://github.com/Arjun-Sivasankar">
+  <img src="./assets/github-overview.svg" width="100%" alt="Arjun Sivasankar GitHub overview" />
+</a>
+
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Arjun-Sivasankar&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Arjun's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arjun-Sivasankar&layout=compact&hide_border=true&theme=transparent" alt="Arjun's top languages" />
+  <a href="https://github.com/Arjun-Sivasankar?tab=repositories">Repositories</a> ·
+  <a href="https://github.com/Arjun-Sivasankar?tab=overview">Contribution activity</a>
 </p>
 
 ---
