@@ -10,9 +10,9 @@
 
 ---
 
-## Hi! I'm Arjun Sivasankar
-
-**Computational Modeling Researcher · AI Engineer**
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=2200&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&height=85&lines=Hi%21+I%27m+Arjun+Sivasankar;Computational+Modeling+Researcher+%C2%B7+AI+Engineer" alt="Animated introduction — Arjun Sivasankar" />
+</p>
 
 I work at the intersection of **machine learning, scientific computing, simulation, and knowledge-driven systems**.
 
