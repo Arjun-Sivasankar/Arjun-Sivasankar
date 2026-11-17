@@ -1,28 +1,29 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Arjun Sivasankar — AI, Simulation, Agents" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Arjun Sivasankar — AI Engineer" />
 </p>
 
 <p align="center">
-  <a href="https://arjun-sivasankar.github.io/ArjunSivasankar.github.io/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/arjun-sivasankar-381380155/">LinkedIn</a> ·
-  <a href="mailto:arjun.sivasankar@gmail.com">Email</a>
+  <a href="https://arjun-sivasankar.github.io/"><b>Portfolio</b></a> ·
+  <a href="https://www.linkedin.com/in/arjun-sivasankar-381380155/"><b>LinkedIn</b></a> ·
+  <a href="mailto:arjun.sivasankar@gmail.com"><b>Email</b></a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=2200&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&height=85&lines=Hi%21+I%27m+Arjun+Sivasankar;Computational+Modeling+Researcher+%C2%B7+AI+Engineer" alt="Animated introduction — Arjun Sivasankar" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=2400&pause=900&color=58A6FF&center=true&vCenter=true&width=900&height=80&lines=AI+Engineer;Agentic+%C2%B7+Retrieval+%C2%B7+Speech;Building+AI+that+has+to+run+on+premise" alt="AI Engineer, agentic, retrieval, speech" />
 </p>
 
-I work at the intersection of **machine learning, scientific computing, simulation, and knowledge-driven systems**.
+I am an **AI Engineer** building agentic, retrieval and speech systems that have to run inside the building. In healthcare AI the data cannot leave the infrastructure, so the interesting constraints arrive together: fine-tuned open-weight models served on your own GPUs, retrieval that has to be fast and auditable, and speech that has to keep up with a conversation in real time.
 
-I am particularly interested in problems where the data is imperfect, the system is complex, and useful solutions require more than a single model call.
+I started as a mechanical engineer and moved into computational modelling, then into production AI. That path still shows in how I work. Most of the problems I like look like engineering problems with a model in the middle: imperfect data, a system that is too complex for one model call, and a result that only counts if it survives contact with reality.
 
 ```python
 arjun = {
-    "focus": ["Generative AI", "Scientific ML", "Agents", "Knowledge Graphs"],
-    "approach": ["model", "experiment", "measure", "iterate"],
-    "interests": ["AI systems", "simulation", "reasoning", "research engineering"]
+    "focus": ["agentic systems", "RAG", "real-time speech"],
+    "recent": ["LoRA fine-tuning", "vLLM serving", "multi-agent orchestration"],
+    "measuring": ["RAGAS", "LLM-as-judge", "tracing", "A/B tests"],
+    "origin": ["mechanical engineering", "scientific computing", "inverse problems"],
 }
 ```
 
@@ -37,9 +38,31 @@ arjun = {
 ### Medical AI and Knowledge Graphs
 **[MasterThesis](https://github.com/Arjun-Sivasankar/MasterThesis)**
 
-Knowledge-aware clinical generation using **MIMIC-IV, UMLS, RAG, FAISS, LLM fine-tuning, semantic mapping, and history-aware pipelines**.
+Multimodal diagnosis prediction from electronic health records on **MIMIC-IV**, combining a UMLS knowledge graph with neuro-symbolic reasoning and LoRA-fine-tuned open-weight LLMs.
 
-`LLMs` `RAG` `Knowledge Graphs` `Medical AI`
+`LLMs` `Knowledge Graphs` `MIMIC-IV` `PyTorch`
+
+</td>
+<td width="50%" valign="top">
+
+### Agentic Systems
+**[MA-CDH](https://github.com/Arjun-Sivasankar/MA-CDH)**
+
+Multi-agent medical consultation system in **LangGraph**, with a router, domain specialists, consensus building and tool access to guidelines, literature and drug interactions.
+
+`Agents` `LangGraph` `RAG` `Medical AI`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Real-time Speech
+**[VoiceAgent](https://github.com/Arjun-Sivasankar/VoiceAgent)**
+
+Low-latency **speech-to-speech** pipeline with a browser HUD, a local action bridge and a configurable voice, plus reproducible **TTS benchmarks** across CPU and CUDA runtimes.
+
+`Speech` `STT/TTS` `Streaming` `Benchmarking`
 
 </td>
 <td width="50%" valign="top">
@@ -47,21 +70,21 @@ Knowledge-aware clinical generation using **MIMIC-IV, UMLS, RAG, FAISS, LLM fine
 ### Scientific Machine Learning
 **[Conductivity Reconstruction](https://github.com/Arjun-Sivasankar/Conductivity-Reconstruction-using-Invertible-Neural-Networks-after-sensor-reduction)**
 
-Reconstructing conductivity fields with **invertible neural networks** under reduced sensor information.
+Reconstructing high-resolution conductivity fields from reduced sensor data with **invertible neural networks**, while choosing which sensors to keep.
 
-`Scientific ML` `Inverse Problems` `Neural Networks`
+`Scientific ML` `Inverse Problems` `Generative Models`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Agentic Systems
-**[AI-Agent-JS](https://github.com/Arjun-Sivasankar/AI-Agent-JS)**
+### Graphics and Games
+**[Nightfall Ward](https://github.com/Arjun-Sivasankar/Nightfall-Ward)**
 
-Experiments with AI agents and autonomous workflows, with an emphasis on structured actions and tool-oriented behavior.
+First-person survival shooter in the browser, built with **TypeScript, Vite and Three.js** as a study in real-time rendering, collision and game feel.
 
-`Agents` `JavaScript` `Generative AI`
+`TypeScript` `Three.js` `Real-time`
 
 </td>
 <td width="50%" valign="top">
@@ -69,7 +92,7 @@ Experiments with AI agents and autonomous workflows, with an emphasis on structu
 ### Computer Vision
 **[GTSRB Traffic Classification](https://github.com/Arjun-Sivasankar/GTSRB-TrafficClassification)**
 
-Deep-learning experiments for traffic-sign recognition and visual classification.
+Convolutional networks for German traffic-sign recognition, and a study of where they fail.
 
 `Computer Vision` `Deep Learning` `Classification`
 
@@ -82,45 +105,35 @@ Deep-learning experiments for traffic-sign recognition and visual classification
 ## Technical Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,ts,pytorch,tensorflow,sklearn,docker,git,linux,postgres,mongodb,sqlite,aws,azure,gcp&perline=9" alt="Arjun's technical stack" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,docker,kubernetes,terraform,linux,ts,react,nextjs,postgres,redis,aws,azure,git&perline=8" alt="Technical stack" />
 </p>
 
 <table>
 <tr>
-<td width="25%" valign="top"><strong>AI / ML</strong><br><br>PyTorch<br>TensorFlow<br>scikit-learn<br>LLMs & Generative AI<br>RAG<br>Knowledge Graphs<br>Computer Vision</td>
-<td width="25%" valign="top"><strong>Engineering</strong><br><br>Python<br>C++<br>Java<br>JavaScript / TypeScript<br>Docker<br>Linux<br>Git</td>
-<td width="25%" valign="top"><strong>Data</strong><br><br>Pandas<br>NumPy<br>PostgreSQL<br>SQLite<br>MongoDB<br>Matplotlib<br>FAISS</td>
-<td width="25%" valign="top"><strong>Scientific Computing</strong><br><br>MATLAB<br>Simulink<br>COMSOL<br>Computational Modeling<br>Simulation<br>Inverse Problems<br>Scientific ML</td>
+<td width="33%" valign="top"><strong>LLMs &amp; GenAI</strong><br><br>LoRA fine-tuning<br>Retrieval-augmented generation<br>Hybrid search and reranking<br>Multi-agent systems<br>LangGraph, MCP<br>Prompt engineering</td>
+<td width="33%" valign="top"><strong>Deployment</strong><br><br>vLLM, SGLang<br>NVIDIA GPUs, on-premise inference<br>Docker, Kubernetes, Terraform<br>GitLab CI, GitHub Actions<br>AWS, Microsoft Azure<br>MLflow, Langfuse</td>
+<td width="33%" valign="top"><strong>Full-Stack</strong><br><br>Python<br>TypeScript, React, Next.js<br>REST APIs, microservices<br>PostgreSQL, Supabase, Redis<br>Async Python, pytest</td>
+</tr>
+<tr>
+<td width="33%" valign="top"><strong>Speech &amp; Document AI</strong><br><br>Whisper, NVIDIA Parakeet<br>Speaker diarization<br>Text-to-speech<br>OCR document processing</td>
+<td width="33%" valign="top"><strong>ML &amp; Deep Learning</strong><br><br>PyTorch, TensorFlow<br>scikit-learn<br>Time-series forecasting<br>Quantization-aware training</td>
+<td width="33%" valign="top"><strong>Scientific Computing</strong><br><br>NumPy, pandas, SciPy<br>Statistical modelling<br>Design of experiments<br>MATLAB, Simulink, COMSOL</td>
 </tr>
 </table>
 
-<p align="center">
-  <code>Cloud: AWS · Azure · Google Cloud</code>
-</p>
-
 ---
 
-## Engineering Approach
+## How I work
 
 ```text
-01  understand the system
-02  identify the important structure
-03  build the smallest useful experiment
-04  measure what actually happened
-05  iterate until the idea survives contact with reality
+01  understand the system before touching the model
+02  find the structure that actually matters
+03  build the smallest experiment that can be wrong
+04  measure what happened, not what you hoped
+05  put it in front of a user, then keep measuring
 ```
 
-> Research with rigor. Engineer with purpose.
-
----
-
-## Current Interests
-
-- AI systems that reason over **structured and unstructured knowledge**
-- **Agents** that plan, use tools, and operate inside real workflows
-- **Knowledge graphs, retrieval, and generative models**
-- Machine learning for **scientific and inverse problems**
-- Turning research prototypes into systems that are robust and usable
+Evaluation is not the last step. On agentic and speech systems the only honest measure of quality is whether the thing holds up on the messy inputs, so I build the harness early: traced runs, judged outputs, and a baseline I can beat.
 
 ---
 
@@ -139,10 +152,10 @@ Deep-learning experiments for traffic-sign recognition and visual classification
 
 ## Contact
 
-I am always interested in conversations around **AI, agents, scientific machine learning, generative systems, simulation, and research engineering**.
+I am always glad to talk about agentic systems, retrieval, real-time speech, evaluation, and machine learning that has to work under a real constraint.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/arjun-sivasankar-381380155/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://arjun-sivasankar.github.io/ArjunSivasankar.github.io/"><img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=firefox&logoColor=white" /></a>
-  <a href="mailto:arjun.sivasankar@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/arjun-sivasankar-381380155/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://arjun-sivasankar.github.io/"><img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=firefox&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:arjun.sivasankar@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
