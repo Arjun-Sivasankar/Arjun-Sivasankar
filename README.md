@@ -1,161 +1,115 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Arjun Sivasankar — AI Engineer" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Arjun Sivasankar, AI Engineer and Data Scientist. I build AI that runs where the data lives." />
 </p>
 
 <p align="center">
   <a href="https://arjun-sivasankar.github.io/"><b>Portfolio</b></a> ·
+  <a href="https://arjun-sivasankar.github.io/assets/cv/Arjun_Sivasankar_CV.pdf"><b>CV (PDF)</b></a> ·
   <a href="https://www.linkedin.com/in/arjun-sivasankar-381380155/"><b>LinkedIn</b></a> ·
   <a href="mailto:arjun.sivasankar@gmail.com"><b>Email</b></a>
 </p>
 
----
+I'm an **AI Engineer and Data Scientist** who builds agents, retrieval and speech systems that run on hardware the team controls. Most recently, at Docs4D, a healthcare AI start-up with four engineers, I owned most of the AI work: patient data could not leave our infrastructure, so the models were fine-tuned, served and evaluated in-house.
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=2400&pause=900&color=58A6FF&center=true&vCenter=true&width=900&height=80&lines=AI+Engineer;Agentic+%C2%B7+Retrieval+%C2%B7+Speech;Building+AI+that+has+to+run+on+premise" alt="AI Engineer, agentic, retrieval, speech" />
-</p>
+Before that I built LLM agents with enterprise customers at Vodafone, co-authored an IEEE paper at TU Dresden, and started out as a mechanical engineer. M.Sc. in Computational Modeling and Simulation, TU Dresden.
 
-I am an **AI Engineer** building agentic, retrieval and speech systems that have to run inside the building. In healthcare AI the data cannot leave the infrastructure, so the interesting constraints arrive together: fine-tuned open-weight models served on your own GPUs, retrieval that has to be fast and auditable, and speech that has to keep up with a conversation in real time.
+## What I built at Docs4D
 
-I started as a mechanical engineer and moved into computational modelling, then into production AI. That path still shows in how I work. Most of the problems I like look like engineering problems with a model in the middle: imperfect data, a system that is too complex for one model call, and a result that only counts if it survives contact with reality.
+The code is company property, so it isn't here. The portfolio has the system diagrams and a short film.
 
-```python
-arjun = {
-    "focus": ["agentic systems", "RAG", "real-time speech"],
-    "recent": ["LoRA fine-tuning", "vLLM serving", "multi-agent orchestration"],
-    "measuring": ["RAGAS", "LLM-as-judge", "tracing", "A/B tests"],
-    "origin": ["mechanical engineering", "scientific computing", "inverse problems"],
-}
-```
+| Product | What it did | How |
+| --- | --- | --- |
+| **SuperDoc** | Conversational clinical assistant for patients, chat and real-time voice, piloted with a German university hospital | LangGraph multi-agent system, RAG over ESC guidelines with citations, MCP tools, a rule-based validation layer for EU MDR; voice loop of about 1.5 s |
+| **Private LLM + RAG** | The model and retrieval behind it | Qwen3-30B-A3B fine-tuned with LoRA, served with vLLM on in-house NVIDIA GPUs; Qdrant hybrid search with a batched cross-encoder reranker, retrieval under 1 s |
+| **MedScribe** | Live clinical transcription | Streaming NVIDIA Parakeet for live text, Whisper correction and speaker diarization in the background, per-clinic data isolation |
+| **DocScan, Frontline** | OCR intake and the clinician dashboard | PaddleOCR-VL service; Next.js, TypeScript and React on Supabase with row-level security |
 
----
-
-## Selected Work
+## Selected public work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Medical AI and Knowledge Graphs
-**[MasterThesis](https://github.com/Arjun-Sivasankar/MasterThesis)**
+### [Diagnosis prediction with knowledge graphs](https://github.com/Arjun-Sivasankar/MasterThesis)
+Master's thesis, ScaDS.AI, TU Dresden (grade 1.3). ICD-9 coding on MIMIC-IV with LoRA-tuned Llama models and UMLS knowledge-graph paths. Graph paths lifted micro-F1 from **0.459 to 0.503** and rare-code F1 by **26 to 46%**. Trained with PyTorch DDP on 3 H100s under SLURM.
 
-Multimodal diagnosis prediction from electronic health records on **MIMIC-IV**, combining a UMLS knowledge graph with neuro-symbolic reasoning and LoRA-fine-tuned open-weight LLMs.
-
-`LLMs` `Knowledge Graphs` `MIMIC-IV` `PyTorch`
+`LLMs` `LoRA` `Knowledge graphs` `PyTorch DDP`
 
 </td>
 <td width="50%" valign="top">
 
-### Agentic Systems
-**[MA-CDH](https://github.com/Arjun-Sivasankar/MA-CDH)**
+### [Access interval prediction](https://github.com/Arjun-Sivasankar/AIP)
+Code behind my **IEEE ACDSA 2024** paper ([DOI](https://doi.org/10.1109/ACDSA59508.2024.10467779)): neural predictors of memory-access intervals in hardware accelerators, tuned with Optuna.
 
-Multi-agent medical consultation system in **LangGraph**, with a router, domain specialists, consensus building and tool access to guidelines, literature and drug interactions.
-
-`Agents` `LangGraph` `RAG` `Medical AI`
+`Time series` `Keras` `TensorFlow` `Optuna`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Real-time Speech
-**[VoiceAgent](https://github.com/Arjun-Sivasankar/VoiceAgent)**
-
-Low-latency **speech-to-speech** pipeline with a browser HUD, a local action bridge and a configurable voice, plus reproducible **TTS benchmarks** across CPU and CUDA runtimes.
+### [VoiceAgent](https://github.com/Arjun-Sivasankar/VoiceAgent)
+Low-latency speech-to-speech voice agent with a browser HUD, a local action bridge and reproducible TTS benchmarks across CPU and CUDA.
 
 `Speech` `STT/TTS` `Streaming` `Benchmarking`
 
 </td>
 <td width="50%" valign="top">
 
-### Scientific Machine Learning
-**[Conductivity Reconstruction](https://github.com/Arjun-Sivasankar/Conductivity-Reconstruction-using-Invertible-Neural-Networks-after-sensor-reduction)**
+### [Cardiometabolic agents](https://github.com/Arjun-Sivasankar/CardioMetabolic-Agents)
+Multi-agent medical consultation prototype in LangGraph for cardiology, diabetes and hypertension: a router, domain specialists and consensus building, with a Streamlit UI.
 
-Reconstructing high-resolution conductivity fields from reduced sensor data with **invertible neural networks**, while choosing which sensors to keep.
-
-`Scientific ML` `Inverse Problems` `Generative Models`
+`Agents` `LangGraph` `RAG` `Streamlit`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Graphics and Games
-**[Nightfall Ward](https://github.com/Arjun-Sivasankar/Nightfall-Ward)**
+### [90% fewer sensors with invertible networks](https://github.com/Arjun-Sivasankar/INN-Sensor-Reduction)
+Reconstructing conductivity maps of a hydrogen electrolyzer from magnetic-field sensors with invertible neural networks. k-means kept **10 of 100 sensors** at about 1.5% higher loss.
 
-First-person survival shooter in the browser, built with **TypeScript, Vite and Three.js** as a study in real-time rendering, collision and game feel.
-
-`TypeScript` `Three.js` `Real-time`
+`Inverse problems` `Generative models` `FrEIA`
 
 </td>
 <td width="50%" valign="top">
 
-### Computer Vision
-**[GTSRB Traffic Classification](https://github.com/Arjun-Sivasankar/GTSRB-TrafficClassification)**
+### [AI fitness coach](https://github.com/Arjun-Sivasankar/AI-Enabled-Fitness-App)
+Counts exercise repetitions from a webcam with pose estimation and gives form feedback, in a Streamlit app.
 
-Convolutional networks for German traffic-sign recognition, and a study of where they fail.
-
-`Computer Vision` `Deep Learning` `Classification`
+`Computer vision` `MediaPipe` `OpenCV`
 
 </td>
 </tr>
 </table>
 
----
-
-## Technical Stack
+## Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,sklearn,docker,kubernetes,terraform,linux,ts,react,nextjs,postgres,redis,aws,azure,git&perline=8" alt="Technical stack" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,fastapi,docker,kubernetes,terraform,linux,githubactions,gitlab,aws,azure,postgres,redis,supabase,ts,react,nextjs&perline=10" alt="Python, PyTorch, TensorFlow, scikit-learn, FastAPI, Docker, Kubernetes, Terraform, Linux, GitHub Actions, GitLab, AWS, Azure, PostgreSQL, Redis, Supabase, TypeScript, React, Next.js" />
 </p>
 
 <table>
 <tr>
-<td width="33%" valign="top"><strong>LLMs &amp; GenAI</strong><br><br>LoRA fine-tuning<br>Retrieval-augmented generation<br>Hybrid search and reranking<br>Multi-agent systems<br>LangGraph, MCP<br>Prompt engineering</td>
-<td width="33%" valign="top"><strong>Deployment</strong><br><br>vLLM, SGLang<br>NVIDIA GPUs, on-premise inference<br>Docker, Kubernetes, Terraform<br>GitLab CI, GitHub Actions<br>AWS, Microsoft Azure<br>MLflow, Langfuse</td>
-<td width="33%" valign="top"><strong>Full-Stack</strong><br><br>Python<br>TypeScript, React, Next.js<br>REST APIs, microservices<br>PostgreSQL, Supabase, Redis<br>Async Python, pytest</td>
+<td width="33%" valign="top"><b>LLMs and agents</b><br><br>LangGraph, MCP tool calling<br>Multi-agent systems<br>LoRA fine-tuning (PEFT, Unsloth)<br>RAG: Qdrant hybrid search, reranking<br>Azure OpenAI, Claude API</td>
+<td width="33%" valign="top"><b>Serving and evaluation</b><br><br>vLLM, SGLang on NVIDIA GPUs<br>Docker, Kubernetes, Terraform<br>GitLab CI, GitHub Actions<br>RAGAS, LLM-as-judge, A/B tests<br>Langfuse, MLflow, W&amp;B</td>
+<td width="33%" valign="top"><b>Speech and documents</b><br><br>NVIDIA Parakeet, NeMo, Whisper<br>Speaker diarization<br>Qwen3-TTS, CosyVoice 2<br>PaddleOCR-VL<br>Azure AI Document Intelligence</td>
 </tr>
 <tr>
-<td width="33%" valign="top"><strong>Speech &amp; Document AI</strong><br><br>Whisper, NVIDIA Parakeet<br>Speaker diarization<br>Text-to-speech<br>OCR document processing</td>
-<td width="33%" valign="top"><strong>ML &amp; Deep Learning</strong><br><br>PyTorch, TensorFlow<br>scikit-learn<br>Time-series forecasting<br>Quantization-aware training</td>
-<td width="33%" valign="top"><strong>Scientific Computing</strong><br><br>NumPy, pandas, SciPy<br>Statistical modelling<br>Design of experiments<br>MATLAB, Simulink, COMSOL</td>
+<td width="33%" valign="top"><b>Data science</b><br><br>Python, SQL, pandas, NumPy<br>scikit-learn, XGBoost, LightGBM<br>statsmodels, Optuna<br>Time-series forecasting<br>Design of experiments</td>
+<td width="33%" valign="top"><b>Product engineering</b><br><br>FastAPI, async Python, pytest<br>TypeScript, React, Next.js<br>PostgreSQL, Supabase (RLS), Redis</td>
+<td width="33%" valign="top"><b>Regulated software</b><br><br>ISO 14971, IEC 62304, ISO 13485<br>EU MDR, EU AI Act, GDPR</td>
 </tr>
 </table>
 
----
+## Also
 
-## How I work
-
-```text
-01  understand the system before touching the model
-02  find the structure that actually matters
-03  build the smallest experiment that can be wrong
-04  measure what happened, not what you hoped
-05  put it in front of a user, then keep measuring
-```
-
-Evaluation is not the last step. On agentic and speech systems the only honest measure of quality is whether the thing holds up on the messy inputs, so I build the harness early: traced runs, judged outputs, and a baseline I can beat.
-
----
-
-## GitHub Activity
-
-<a href="https://github.com/Arjun-Sivasankar">
-  <img src="./assets/github-overview.svg" width="100%" alt="Arjun Sivasankar GitHub overview" />
-</a>
+- **IEEE ACDSA 2024**: Friedrich, Sivasankar, Matúš, Fettweis. *Enlarging the time budget for neural network based predictors for access interval prediction.* [DOI](https://doi.org/10.1109/ACDSA59508.2024.10467779)
+- **Indian patent, granted 2024**: a canister-aided gas ejection system, from the sounding rocket I helped lead at Team thrustMIT (Spaceport America Cup 2019).
+- **Thesis report**: [MT-Report](https://github.com/Arjun-Sivasankar/MT-Report), the LaTeX source of the Master's thesis.
 
 <p align="center">
-  <a href="https://github.com/Arjun-Sivasankar?tab=repositories">Repositories</a> ·
-  <a href="https://github.com/Arjun-Sivasankar?tab=overview">Contribution activity</a>
-</p>
-
----
-
-## Contact
-
-I am always glad to talk about agentic systems, retrieval, real-time speech, evaluation, and machine learning that has to work under a real constraint.
-
-<p align="center">
+  <a href="https://arjun-sivasankar.github.io/"><img src="https://img.shields.io/badge/Portfolio-e79b3c?style=flat-square&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/arjun-sivasankar-381380155/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://arjun-sivasankar.github.io/"><img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=firefox&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:arjun.sivasankar@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
